@@ -50,3 +50,21 @@ Ensure that the following tools are installed:
 ```bash
 git clone https://github.com/yourusername/GenAI_Email_Processing_for_Fashion_Retail.git
 cd GenAI_Email_Processing_for_Fashion_Retail
+```
+
+## Usage
+___-Email Classification: Automatically classify incoming emails into predefined categories and save the results as a CSV file.___
+<br>
+___-Order Processing: Manage orders by checking stock levels and notifying customers, with results saved in CSV files.___
+<br>
+___-Inquiry Response: Generate and store AI-driven responses to customer inquiries in a new Excel file.___
+
+
+## Contribution
+Contributions to this project are welcome. If you have any suggestions or improvements, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+For further inquiries, suggestions, or collaboration opportunities, feel free to reach out via email at nihadaslanzade02@icloud.com
