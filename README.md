@@ -6,8 +6,8 @@ This project demonstrates the application of Generative AI (GenAI) to automate a
 
 ## **Project Structure**
 
-- **Jupyter Notebook**: Contains the core implementation of the AI-driven email processing system. [Link to the notebook]([link-to-your-notebook](https://colab.research.google.com/drive/1qD_ZgUHlm2xFzEeVax2_O5MRDM57LTZP?usp=sharing)).
-- **Google Sheets**: Serves as the data source for incoming emails and the destination for processed outputs. [Link to the Google Sheets]([link-to-your-Google-Sheet](https://docs.google.com/spreadsheets/d/1lt6hxv96azZcIBAYkPDYmtkR4o-w1EthzFM0nN3v_B4/edit?usp=drive_link)).
+- **Jupyter Notebook**: Contains the core implementation of the AI-driven email processing system. [Link to the notebook](https://colab.research.google.com/drive/1qD_ZgUHlm2xFzEeVax2_O5MRDM57LTZP?usp=sharing).
+- **Google Sheets**: Serves as the data source for incoming emails and the destination for processed outputs. [Link to the Google Sheets](https://docs.google.com/spreadsheets/d/1lt6hxv96azZcIBAYkPDYmtkR4o-w1EthzFM0nN3v_B4/edit?usp=drive_link).
 
 ## **Technologies Used**
 
