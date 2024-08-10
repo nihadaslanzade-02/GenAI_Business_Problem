@@ -50,7 +50,3 @@ Ensure that the following tools are installed:
 ```bash
 git clone https://github.com/yourusername/GenAI_Email_Processing_for_Fashion_Retail.git
 cd GenAI_Email_Processing_for_Fashion_Retail
-
-
-- **Jupyter Notebook**: 
-- **Google Sheets**: 
