@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project demonstrates the application of Generative AI (GenAI) to automate and enhance email processing for a fashion retail business. By integrating OpenAI's GPT model with Google Sheets, the project streamlines the management of customer inquiries and order requests, improving operational efficiency and customer service responsiveness.
+This project leverages Generative AI (GenAI) to automate and enhance email processing for a fashion retail business. By integrating OpenAI's GPT model with Google Sheets, the project efficiently manages customer inquiries and order requests, ensuring operational efficiency and improved customer service responsiveness.
 
 ## **Project Structure**
 
@@ -13,9 +13,8 @@ This project demonstrates the application of Generative AI (GenAI) to automate a
 
 - **Python**: The primary language for developing the solution.
 - **OpenAI GPT API**: Employed for natural language processing tasks, including email classification and response generation.
-- **Google Sheets API**: Used for seamless data handling and updates within Google Sheets.
 - **Pandas**: Utilized for data manipulation and transformation.
-- **gspread**: Facilitates interaction between Python and Google Sheets.
+- **Google Sheets**: Interacted with Google Sheets data via direct URL construction and processing it as CSV using Pandas.
 - **Google Colab**: Cloud-based environment for executing the notebook.
 
 ## **Project Details**
@@ -23,20 +22,20 @@ This project demonstrates the application of Generative AI (GenAI) to automate a
 ### **Email Classification**
 
 - **Objective**: Automate the categorization of emails into "product inquiry" or "order request".
-- **Approach**: Leveraged OpenAI's GPT model to analyze and classify the content of incoming emails.
-- **Outcome**: Categorized emails are written back to the Google Sheets, providing an organized dataset for further processing.
+- **Approach**: OpenAI's GPT model is used to analyze and classify the content of incoming emails.
+- **Outcome**: The results, including the classification of each email, are stored in a CSV file.
 
 ### **Order Request Management**
 
 - **Objective**: Automate order processing by verifying stock levels, updating inventory, and generating customer notifications.
-- **Approach**: Implemented threading to handle stock updates safely and used GPT to generate personalized order confirmations or stock shortage notifications.
-- **Outcome**: Order statuses and responses are automatically recorded in Google Sheets, ensuring accurate and timely communication with customers.
+- **Approach**: The solution iterates over each order, checks product availability, updates stock levels, and generates appropriate responses using the GPT model.
+- **Outcome**: Order statuses and responses are saved in CSV files for future reference.
 
 ### **Product Inquiry Handling**
 
 - **Objective**: Provide quick and accurate responses to customer inquiries about products.
-- **Approach**: Used natural language processing to identify the type of inquiry (e.g., stock availability, pricing) and generate a relevant response using GPT.
-- **Outcome**: Customer responses are dynamically generated and stored in the Google Sheets, enhancing customer engagement and satisfaction.
+- **Approach**: The email content is analyzed to determine the type of inquiry (e.g., stock availability, pricing), and a relevant response is generated using the GPT model.
+- **Outcome**: The generated responses are saved to a new Excel file.
 
 ## **Installation and Setup**
 
@@ -53,9 +52,5 @@ git clone https://github.com/yourusername/GenAI_Email_Processing_for_Fashion_Ret
 cd GenAI_Email_Processing_for_Fashion_Retail
 
 
-To run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/GenAI_Business_Problem_Assessment.git
-   cd GenAI_Business_Problem_Assessment
+- **Jupyter Notebook**: 
+- **Google Sheets**: 
